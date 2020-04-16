@@ -5,9 +5,17 @@
     - Use the 'Oswald' font family at 14px throughout the body of the document.
 */
 
+#body {
+
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 14px;
+
+}
 
 nav {font-family: sans-serif; font-size: 10px;}
 #main {width: 900px; margin: 10px auto;}
+
 
 /* 
     Add a CSS ruleset targeting the restaurant name to accomplish the following:
@@ -15,7 +23,14 @@ nav {font-family: sans-serif; font-size: 10px;}
         - set the font size to 46px 
         - use a lighter weight font
 */
+    h1 {
 
+        font-family: Bungee Inline;
+        font-size: 46px;
+        font-weight: lighter;
+    }
+
+    
 
 #menu {columns: 420px 2; column-gap: 60px;}
 section {margin-bottom: 20px; padding: 10px;}
@@ -27,6 +42,10 @@ h2 {margin-top: 0;}
         - Show each of the section headings of the menu in uppercase
 */
 
+    h2 {
+
+        text-transform: uppercase;
+    }
 
 /* 
      Update the following ruleset (dt) to accomplish the following:
@@ -34,7 +53,10 @@ h2 {margin-top: 0;}
         - set the font size to 16px
 */
 dt {
-    display: inline;
+    display: inline; 
+    font-weight: bold;
+    font-size: 16px;
+    
 }
 
 /* 
@@ -54,6 +76,13 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
     - right align the text in the footer
 */
 
+    footer {
+
+        text-align: right;
+    }
+
+
+
 
 
 /* 
@@ -61,4 +90,11 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
     - draw a 2px black border around the sections
 */
 
+ 
+
+    #starters, #desserts {
+        
+        border: 2px black solid
+    
+    }
 

@@ -39,6 +39,8 @@ h1 {
 #menu {
     
     column-rule: 2px dashed rosybrown;
+    columns: 400px 2;
+    column-gap: 100px;
     
 }
 
@@ -91,9 +93,10 @@ address {padding: 10px;}
         - Draw a 2px dashed rosybrown border
 */
 
-#footer {
+footer {
 
-    border-style: 2px dashed rosybrown
+    border: dashed 2px rosybrown;
+    
 
 
 }
