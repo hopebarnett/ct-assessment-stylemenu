@@ -10,7 +10,8 @@ body {
     font-family: 'Lato';
     font-size: 18px;
     background-image: url("../images/map-bg.jpg");
-
+    background-position: cover;
+    
 }
 
 
@@ -55,7 +56,7 @@ h2 {margin: 0;}
 
 h2 {
 
-    font-family: small caps;
+    font: small-caps;
     color: #6d4c41;
 }
 
@@ -65,9 +66,9 @@ h2 {
         - Make the font bold
 */
 
-h3 {
+dt {
 
-    font-size: 20;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -82,7 +83,7 @@ dd {margin: 0 0 12px 0; display: flex;}
 .price {
     order: 2;
     padding-left: 10px;
-    font-weight: bold;
+    font-size: large;
     color: firebrick;
 }
 

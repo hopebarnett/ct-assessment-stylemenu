@@ -7,7 +7,7 @@
 
 #body {
 
-    font-family: sans-serif;
+    font-family: Oswald;
     font-variant: small-caps;
     font-size: 14px;
 
@@ -63,6 +63,12 @@ dt {
     Add a CSS ruleset to accomplish the following:
     - Make a comma appear after the name of each menu item
 */
+
+dt::after {
+
+    display: inline;
+    content: ",";
+}
 
 
 
