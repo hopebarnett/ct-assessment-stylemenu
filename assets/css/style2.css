@@ -5,10 +5,10 @@
     - Use the 'Oswald' font family at 14px throughout the body of the document.
 */
 
-#body {
+body {
 
-    font-family: Oswald;
-    font-variant: small-caps;
+    font-family: 'Oswald';
+    font-variant: normal;
     font-size: 14px;
 
 }
